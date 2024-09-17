@@ -23,7 +23,7 @@ To get started, clone the repository and rephrase the app name `skeleton` to you
    ```bash
    docker compose up
    ```
-5. Open your browser and navigate to `https://host.docker.internal:9200` to see your oCIS dev environment. The default user is `admin` with password `admin`. Your app is automatically loaded because it's mounted into the app folder of oCIS in the docker compose stack of this repository.
+5. Open your browser and navigate to `https://host.docker.internal:9200` to see your oCIS dev environment. The default user is `admin` with password `admin`. Your app is automatically loaded.
 
 ### Develop Your App
 You can start developing your app by modifying the files in the `src` folder. The development server will automatically reload your changes as long as you keep a running process of `pnpm build:w`. In this setup you currently need a page reload to see your changes.
