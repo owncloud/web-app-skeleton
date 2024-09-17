@@ -16,7 +16,7 @@ To get started, clone the repository and rephrase the app name `skeleton` to you
 1. Install [pnpm](https://pnpm.io/installation) if you haven't already. Our package.json holds a `packageManager` field and we recommend to use [pnpm with corepack](https://pnpm.io/installation#using-corepack).
 2. Install dependencies and run a first build process by running:
    ```bash
-   pnpm install && pnpm build
+   pnpm install && pnpm build:w
    ```
 3. Add `127.0.0.1 host.docker.internal` to your `/etc/hosts` file. We currently only support local development with Docker on Linux and macOS.
 4. Start the development server:
