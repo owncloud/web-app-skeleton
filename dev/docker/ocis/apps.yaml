@@ -1,0 +1,3 @@
+skeleton:
+  config:
+    someConfig: "whatever-config-you-need-in-dev-mode"
