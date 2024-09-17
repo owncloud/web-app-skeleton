@@ -30,7 +30,7 @@ You can start developing your app by modifying the files in the `src` folder. Th
 Details and examples about app/extension development are available via our [developer documentation](https://owncloud.dev/clients/web/extension-system/).
 
 ### Testing
-This repo holds the basic setup for unit testing with vitest. You can run the tests with:
+This repo holds the basic setup for unit testing with [vitest](https://vitest.dev/guide/). You can run the tests with:
 ```bash
 pnpm test:unit
 ```
