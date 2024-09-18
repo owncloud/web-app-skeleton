@@ -4,13 +4,7 @@ All the bits and pieces for an easy start to build your own web apps and extensi
 ## Getting Started
 The following instructions will help you set up your own web app/extension and a proper development environment.
 
-### App Name
-To get started, clone the repository and rephrase the app name `skeleton` to your desired app name in:
-- package.json
-- vite.config.ts
-- dev/docker/ocis/apps.yaml (if you need config for your app)
-- src/index.ts
-- tests/unit/App.spec.ts
+To get started, clone the repository and then follow the instructions below.
 
 ### Development Environment
 1. Install [pnpm](https://pnpm.io/installation) if you haven't already. Our package.json holds a `packageManager` field and we recommend to use [pnpm with corepack](https://pnpm.io/installation#using-corepack).
@@ -28,6 +22,13 @@ To get started, clone the repository and rephrase the app name `skeleton` to you
 ### Develop Your App
 You can start developing your app by modifying the files in the `src` folder. The development server will automatically reload your changes as long as you keep a running process of `pnpm build:w`. In this setup you currently need a page reload to see your changes.
 Details and examples about app/extension development are available via our [developer documentation](https://owncloud.dev/clients/web/extension-system/).
+
+You should start by rephrasing the app name `skeleton` to your desired app name in:
+- package.json
+- vite.config.ts
+- dev/docker/ocis/apps.yaml (if you need config for your app)
+- src/index.ts
+- tests/unit/App.spec.ts
 
 ### Testing
 This repo holds the basic setup for unit testing with [vitest](https://vitest.dev/guide/). You can run the tests with:
