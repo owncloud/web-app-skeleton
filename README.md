@@ -1,5 +1,5 @@
 # web-app-skeleton
-This readme provides all the bits and pieces for an easy start to build your own web app and extension for ownCloud Infinite Scale.
+This repository provides all the bits and pieces for an easy start to build your own web app or extension for ownCloud Infinite Scale.
 
 ## Getting Started
 The following instructions will help you to set up your own web app/extension and a proper development environment.
