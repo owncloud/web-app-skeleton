@@ -1,27 +1,31 @@
 # web-app-skeleton
-All the bits and pieces for an easy start to build your own web apps and extensions for ownCloud Infinite Scale.
+This readme provides all the bits and pieces for an easy start to build your own web app and extension for ownCloud Infinite Scale.
 
 ## Getting Started
-The following instructions will help you set up your own web app/extension and a proper development environment.
+The following instructions will help you to set up your own web app/extension and a proper development environment.
 
-To get started, clone the repository and then follow the instructions below.
+To get started, clone the repository and follow the instructions below.
 
 ### Development Environment
-1. Install [pnpm](https://pnpm.io/installation) if you haven't already. Our package.json holds a `packageManager` field and we recommend to use [pnpm with corepack](https://pnpm.io/installation#using-corepack).
-2. Install dependencies and run a first build process by running:
+
+Currently local development requires docker and is only supported on Linux and macOS.
+
+1. Make sure you have a working docker- and docker compose environment running.
+1. Install [pnpm](https://pnpm.io/installation) if you haven't already. Also check that your installation of pnpm has a recent version. Our package.json holds a `packageManager` field and we recommend to use [pnpm with corepack](https://pnpm.io/installation#using-corepack).
+1. Install dependencies and run a first build process by running:
    ```bash
    pnpm install && pnpm build:w
    ```
-3. Add `127.0.0.1 host.docker.internal` to your `/etc/hosts` file. We currently only support local development with Docker on Linux and macOS.
-4. Start the development server:
+   In case you see errors about failed commands (such as Command "vite" not found) try to re-run the pnpm command.
+1. Add `127.0.0.1 host.docker.internal` to your `/etc/hosts` file to make sure the address host.docker.internal can be resolved locally. 
+1. Start the development server:
    ```bash
    docker compose up
    ```
-5. Open your browser and navigate to `https://host.docker.internal:9200` to see your oCIS dev environment. The default user is `admin` with password `admin`. Your app is automatically loaded.
+1. Open your browser and navigate to `https://host.docker.internal:9200` to see your oCIS dev environment. The default user is `admin` with password `admin`. Your app from this directory is automatically loaded.
 
 ### Develop Your App
 You can start developing your app by modifying the files in the `src` folder. The development server will automatically reload your changes as long as you keep a running process of `pnpm build:w`. In this setup you currently need a page reload to see your changes.
-Details and examples about app/extension development are available via our [developer documentation](https://owncloud.dev/clients/web/extension-system/).
 
 You should start by rephrasing the app name `skeleton` to your desired app name in:
 - package.json
@@ -29,6 +33,10 @@ You should start by rephrasing the app name `skeleton` to your desired app name 
 - dev/docker/ocis/apps.yaml (if you need config for your app)
 - src/index.ts
 - tests/unit/App.spec.ts
+
+More details and examples about app/extension development are available in the [developer documentation](https://owncloud.dev/clients/web/extension-system/).
+
+Once you have a working extension, consider to rename the root directory and make it available via git.
 
 ### Testing
 This repo holds the basic setup for unit testing with [vitest](https://vitest.dev/guide/). You can run the tests with:
