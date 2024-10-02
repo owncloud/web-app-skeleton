@@ -11,7 +11,10 @@ To get started, clone the repository and follow the instructions below.
 Currently local development requires docker and is only supported on Linux and macOS.
 
 1. Make sure you have a working docker- and docker compose environment running.
-1. Install [pnpm](https://pnpm.io/installation) if you haven't already. Also check that your installation of pnpm has a recent version. Our package.json holds a `packageManager` field and we recommend to use [pnpm with corepack](https://pnpm.io/installation#using-corepack).
+1. Install [pnpm](https://pnpm.io/installation) if you haven't already. 
+   > **Correct version:** Our `package.json` holds a `packageManager` field. Please make sure that you have at least the same major version of pnpm installed.
+
+   > **Corepack:** We recommend to use [pnpm with corepack](https://pnpm.io/installation#using-corepack) to handle the pnpm version automatically.  
 1. Install dependencies and run a first build process by running:
    ```bash
    pnpm install && pnpm build:w
