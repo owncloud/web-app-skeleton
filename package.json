@@ -19,7 +19,7 @@
     "@ownclouders/extension-sdk": "0.0.7",
     "@ownclouders/prettier-config": "0.0.1",
     "@ownclouders/tsconfig": "0.0.6",
-    "@ownclouders/web-client": "^10.2.0",
+    "@ownclouders/web-client": "^11.0.0",
     "@ownclouders/web-pkg": "^10.2.0",
     "@types/node": "20.16.11",
     "@vue/test-utils": "^2.4.6",
