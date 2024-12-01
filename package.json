@@ -21,7 +21,7 @@
     "@ownclouders/tsconfig": "0.0.6",
     "@ownclouders/web-client": "^11.0.0",
     "@ownclouders/web-pkg": "^11.0.0",
-    "@types/node": "20.17.6",
+    "@types/node": "22.10.1",
     "@vue/test-utils": "^2.4.6",
     "eslint": "9.15.0",
     "happy-dom": "^15.0.0",
