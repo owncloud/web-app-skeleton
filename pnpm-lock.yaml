@@ -13,7 +13,7 @@ importers:
         version: 11.0.6(@babel/core@7.25.2)(@typescript-eslint/eslint-plugin@8.8.1(@typescript-eslint/parser@8.8.1(eslint@9.17.0)(typescript@5.7.3))(eslint@9.17.0)(typescript@5.7.3))(eslint@9.17.0)(prettier@3.4.2)
       '@ownclouders/extension-sdk':
         specifier: 11.0.6
-        version: 11.0.6(sass@1.69.7)(vite@6.0.7(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))
+        version: 11.0.6(sass@1.69.7)(vite@6.0.12(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))
       '@ownclouders/prettier-config':
         specifier: 0.0.1
         version: 0.0.1
@@ -48,8 +48,8 @@ importers:
         specifier: 5.7.3
         version: 5.7.3
       vite:
-        specifier: 6.0.7
-        version: 6.0.7(@types/node@22.10.5)(sass@1.69.7)
+        specifier: 6.0.12
+        version: 6.0.12(@types/node@22.10.5)(sass@1.69.7)
       vitest:
         specifier: 2.1.8
         version: 2.1.8(@types/node@22.10.5)(happy-dom@15.11.7)(sass@1.69.7)
@@ -2372,8 +2372,8 @@ packages:
       terser:
         optional: true
 
-  vite@6.0.7:
-    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
+  vite@6.0.12:
+    resolution: {integrity: sha512-gzLogvGSgX2xyAt0J5qhJ7SmdO5aLdShABkU8Ev7dIl8AcrlFSLcj9GHReSq9pGJF/q5C4CZKdtDlkC6DyvQ3w==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3000,12 +3000,12 @@ snapshots:
       - prettier
       - supports-color
 
-  '@ownclouders/extension-sdk@11.0.6(sass@1.69.7)(vite@6.0.7(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))':
+  '@ownclouders/extension-sdk@11.0.6(sass@1.69.7)(vite@6.0.12(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      '@vitejs/plugin-vue': 5.1.4(vite@6.0.7(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))
+      '@vitejs/plugin-vue': 5.1.4(vite@6.0.12(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))
       rollup-plugin-serve: 3.0.0
       sass: 1.69.7
-      vite: 6.0.7(@types/node@22.10.5)(sass@1.69.7)
+      vite: 6.0.12(@types/node@22.10.5)(sass@1.69.7)
     transitivePeerDependencies:
       - vue
 
@@ -3364,9 +3364,9 @@ snapshots:
       '@uppy/core': 3.13.1
       '@uppy/utils': 5.9.0
 
-  '@vitejs/plugin-vue@5.1.4(vite@6.0.7(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))':
+  '@vitejs/plugin-vue@5.1.4(vite@6.0.12(@types/node@22.10.5)(sass@1.69.7))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vite: 6.0.7(@types/node@22.10.5)(sass@1.69.7)
+      vite: 6.0.12(@types/node@22.10.5)(sass@1.69.7)
       vue: 3.5.13(typescript@5.7.3)
 
   '@vitest/expect@2.1.8':
@@ -4889,7 +4889,7 @@ snapshots:
       fsevents: 2.3.3
       sass: 1.69.7
 
-  vite@6.0.7(@types/node@22.10.5)(sass@1.69.7):
+  vite@6.0.12(@types/node@22.10.5)(sass@1.69.7):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
