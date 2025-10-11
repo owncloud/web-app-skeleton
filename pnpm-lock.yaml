@@ -36,8 +36,8 @@ importers:
         specifier: 9.36.0
         version: 9.36.0
       happy-dom:
-        specifier: ^19.0.0
-        version: 19.0.2
+        specifier: ^20.0.0
+        version: 20.0.0
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -52,7 +52,7 @@ importers:
         version: 7.1.7(@types/node@22.18.8)(sass@1.69.7)
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/node@22.18.8)(happy-dom@19.0.2)(sass@1.69.7)
+        version: 3.2.4(@types/node@22.18.8)(happy-dom@20.0.0)(sass@1.69.7)
       vue:
         specifier: ^3.4.21
         version: 3.5.22(typescript@5.9.3)
@@ -1968,8 +1968,8 @@ packages:
   hachure-fill@0.5.2:
     resolution: {integrity: sha512-3GKBOn+m2LX9iq+JC1064cSFprJY4jL1jCXTcpnfER5HYE2l/4EfWSGzkPa/ZDBmYI0ZOEj5VHV/eKnPGkHuOg==}
 
-  happy-dom@19.0.2:
-    resolution: {integrity: sha512-831CLbgDyjRbd2lApHZFsBDe56onuFcjsCBPodzWpzedTpeDr8CGZjs7iEIdNW1DVwSFRecfwzLpVyGBPamwGA==}
+  happy-dom@20.0.0:
+    resolution: {integrity: sha512-GkWnwIFxVGCf2raNrxImLo397RdGhLapj5cT3R2PT7FwL62Ze1DROhzmYW7+J3p9105DYMVenEejEbnq5wA37w==}
     engines: {node: '>=20.0.0'}
 
   has-flag@4.0.0:
@@ -5376,7 +5376,7 @@ snapshots:
 
   hachure-fill@0.5.2: {}
 
-  happy-dom@19.0.2:
+  happy-dom@20.0.0:
     dependencies:
       '@types/node': 20.19.10
       '@types/whatwg-mimetype': 3.0.2
@@ -6248,7 +6248,7 @@ snapshots:
       fsevents: 2.3.3
       sass: 1.69.7
 
-  vitest@3.2.4(@types/node@22.18.8)(happy-dom@19.0.2)(sass@1.69.7):
+  vitest@3.2.4(@types/node@22.18.8)(happy-dom@20.0.0)(sass@1.69.7):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
@@ -6275,7 +6275,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.18.8
-      happy-dom: 19.0.2
+      happy-dom: 20.0.0
     transitivePeerDependencies:
       - jiti
       - less
