@@ -13,7 +13,7 @@ importers:
         version: 12.1.1(@babel/core@7.25.2)(@typescript-eslint/eslint-plugin@8.46.1(@typescript-eslint/parser@8.46.1(eslint@9.37.0)(typescript@5.9.3))(eslint@9.37.0)(typescript@5.9.3))(eslint@9.37.0)(vue-eslint-parser@9.4.3(eslint@9.37.0))
       '@ownclouders/extension-sdk':
         specifier: 12.1.1
-        version: 12.1.1(vite@7.1.9(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))
+        version: 12.1.1(vite@7.1.11(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))
       '@ownclouders/prettier-config':
         specifier: 0.0.1
         version: 0.0.1
@@ -48,8 +48,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       vite:
-        specifier: 7.1.9
-        version: 7.1.9(@types/node@22.18.10)
+        specifier: 7.1.11
+        version: 7.1.11(@types/node@22.18.10)
       vitest:
         specifier: 3.2.4
         version: 3.2.4(@types/node@22.18.10)(happy-dom@20.0.0)
@@ -2904,8 +2904,8 @@ packages:
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
-  vite@7.1.9:
-    resolution: {integrity: sha512-4nVGliEpxmhCL8DslSAUdxlB6+SMrhB0a1v5ijlh1xB1nEPuy1mxaHxysVucLHuWryAxLWg6a5ei+U4TLn/rFg==}
+  vite@7.1.11:
+    resolution: {integrity: sha512-uzcxnSDVjAopEUjljkWh8EIrg6tlzrjFUfMcR1EVsRDGwf/ccef0qQPRyOrROwhrTDaApueq+ja+KLPlzR/zdg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3860,11 +3860,11 @@ snapshots:
       - supports-color
       - vue-eslint-parser
 
-  '@ownclouders/extension-sdk@12.1.1(vite@7.1.9(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))':
+  '@ownclouders/extension-sdk@12.1.1(vite@7.1.11(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
-      '@vitejs/plugin-vue': 6.0.1(vite@7.1.9(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))
+      '@vitejs/plugin-vue': 6.0.1(vite@7.1.11(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))
       rollup-plugin-serve: 3.0.0
-      vite: 7.1.9(@types/node@22.18.10)
+      vite: 7.1.11(@types/node@22.18.10)
     transitivePeerDependencies:
       - vue
 
@@ -4398,10 +4398,10 @@ snapshots:
 
   '@vavt/util@2.1.0': {}
 
-  '@vitejs/plugin-vue@6.0.1(vite@7.1.9(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.1(vite@7.1.11(@types/node@22.18.10))(vue@3.5.22(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.29
-      vite: 7.1.9(@types/node@22.18.10)
+      vite: 7.1.11(@types/node@22.18.10)
       vue: 3.5.22(typescript@5.9.3)
 
   '@vitest/expect@3.2.4':
@@ -4412,13 +4412,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.4(vite@7.1.9(@types/node@22.18.10))':
+  '@vitest/mocker@3.2.4(vite@7.1.11(@types/node@22.18.10))':
     dependencies:
       '@vitest/spy': 3.2.4
       estree-walker: 3.0.3
       magic-string: 0.30.19
     optionalDependencies:
-      vite: 7.1.9(@types/node@22.18.10)
+      vite: 7.1.11(@types/node@22.18.10)
 
   '@vitest/pretty-format@3.2.4':
     dependencies:
@@ -6292,7 +6292,7 @@ snapshots:
       debug: 4.4.3
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 7.1.9(@types/node@22.18.10)
+      vite: 7.1.11(@types/node@22.18.10)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -6307,7 +6307,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite@7.1.9(@types/node@22.18.10):
+  vite@7.1.11(@types/node@22.18.10):
     dependencies:
       esbuild: 0.25.6
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6323,7 +6323,7 @@ snapshots:
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
-      '@vitest/mocker': 3.2.4(vite@7.1.9(@types/node@22.18.10))
+      '@vitest/mocker': 3.2.4(vite@7.1.11(@types/node@22.18.10))
       '@vitest/pretty-format': 3.2.4
       '@vitest/runner': 3.2.4
       '@vitest/snapshot': 3.2.4
@@ -6341,7 +6341,7 @@ snapshots:
       tinyglobby: 0.2.15
       tinypool: 1.1.1
       tinyrainbow: 2.0.0
-      vite: 7.1.9(@types/node@22.18.10)
+      vite: 7.1.11(@types/node@22.18.10)
       vite-node: 3.2.4(@types/node@22.18.10)
       why-is-node-running: 2.3.0
     optionalDependencies:
