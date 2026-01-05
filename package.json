@@ -42,7 +42,7 @@
       ]
     },
     "overrides": {
-      "glob": "^10.5.0"
+      "glob": "^13.0.0"
     }
   },
   "packageManager": "pnpm@10.27.0"
