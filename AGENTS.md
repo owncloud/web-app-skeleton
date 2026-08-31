@@ -1,4 +1,4 @@
-# agents.md — web-app-skeleton
+# AGENTS.md — web-app-skeleton
 
 ## Repository Overview
 
